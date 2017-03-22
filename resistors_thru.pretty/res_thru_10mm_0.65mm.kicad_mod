@@ -1,8 +1,8 @@
-(module res_thru_10mm_0.5mm (layer F.Cu) (tedit 5863B167)
+(module res_thru_10mm_0.65mm (layer F.Cu) (tedit 58AEBA64)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value res_thru_10mm_0.5mm (at 0 -2) (layer F.Fab) hide
+  (fp_text value res_thru_10mm_0.65mm (at 0 -2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 3 0) (end 3 -1) (layer F.SilkS) (width 0.18))
@@ -12,6 +12,6 @@
   (fp_line (start 3 1) (end 3 0) (layer F.SilkS) (width 0.18))
   (fp_line (start 5 0) (end 3 0) (layer F.SilkS) (width 0.18))
   (fp_line (start -5 0) (end -3 0) (layer F.SilkS) (width 0.18))
-  (pad 1 thru_hole circle (at -5 0) (size 1.4 1.4) (drill 0.6) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 5 0) (size 1.4 1.4) (drill 0.6) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -5 0) (size 1.5 1.5) (drill 0.75) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 5 0) (size 1.5 1.5) (drill 0.75) (layers *.Cu *.Mask))
 )
