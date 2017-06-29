@@ -1,12 +1,12 @@
-(module sneaky_header_01x04_str_2.54mm (layer F.Cu) (tedit 5697EE55)
-  (fp_text reference REF** (at 3.81 1.905) (layer F.SilkS) hide
+(module sneaky_header_01x04_str_2.54mm (layer F.Cu) (tedit 5943CB23)
+  (fp_text reference REF** (at 0 1.905) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value SNEAKY_01X04 (at 3.81 -1.905) (layer F.Fab) hide
+  (fp_text value SNEAKY_01X04 (at 0 -1.905) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 thru_hole oval (at 0 0.127) (size 1.397 2.032) (drill 1.016 (offset 0 -0.127)) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole oval (at 2.54 -0.127) (size 1.397 2.032) (drill 1.016 (offset 0 0.127)) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole oval (at 5.08 0.127) (size 1.397 2.032) (drill 1.016 (offset 0 -0.127)) (layers *.Cu *.Mask F.SilkS))
-  (pad 4 thru_hole oval (at 7.62 -0.127) (size 1.397 2.032) (drill 1.016 (offset 0 0.127)) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole oval (at -3.81 0.127) (size 1.397 2.032) (drill 1.016 (offset 0 -0.127)) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole oval (at -1.27 -0.127) (size 1.397 2.032) (drill 1.016 (offset 0 0.127)) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole oval (at 1.27 0.127) (size 1.397 2.032) (drill 1.016 (offset 0 -0.127)) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole oval (at 3.81 -0.127) (size 1.397 2.032) (drill 1.016 (offset 0 0.127)) (layers *.Cu *.Mask F.SilkS))
 )
